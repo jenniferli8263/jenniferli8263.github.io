@@ -5,29 +5,29 @@ function About(){
     const languages = [
         {
             lang: "Python",
-            time: 48,
+            time: 54,
         },
         {
-            lang: "C++",
-            time: 24,
+            lang: "C/C++",
+            time: 30,
         },
         {
             lang: "Java",
-            time: 18,
+            time: 24,
         },
         {
             lang: "HTML/CSS/JavaScript",
-            time: 7
+            time: 15
         },
         {
-            lang: "C",
-            time: 4,
+            lang: "SQL",
+            time: 10,
         },
     ];
-    const langMax = 48;
+    const langMax = 54;
     const technologies = [
         {
-            tech: "Pandas",
+            tech: "Pandas/Numpy/Matplotlib",
             time: 36
         },
         {
@@ -36,18 +36,30 @@ function About(){
         },
         {
             tech: "Git",
-            time: 12
+            time: 18
         },
         {
             tech: "AWS",
-            time: 8
+            time: 15
         },
         {
             tech: "Selenium",
-            time: 6
+            time: 12
         },
         {
             tech: "REACT",
+            time: 10
+        },
+        {
+            tech: "Node.js",
+            time: 10
+        },
+        {
+            tech: "Express",
+            time: 6
+        },
+        {
+            tech: "Spring Boot",
             time: 2
         },
 
@@ -59,9 +71,9 @@ function About(){
                 <Row>
                     <Col>
                     <h1>About</h1>
-                    <p>Hi! My name is Jennifer, and I am a first year software engineering student at the University of Waterloo.  I am passionate about AI, web development, and software applications in quantitative finance.</p>
+                    <p>Hi! My name is Jennifer, and I am a second year software engineering student at the University of Waterloo.  I am passionate about AI, web development, and software applications in quantitative finance.</p>
                     <p>Beyond coding and engineering, I find joy in playing badminton, reading books, or going for a refreshing walk.</p>
-                    <p>Currently seeking 2024 summer internships</p>
+                    <p>Currently seeking Winter 2025 internships</p>
                     </Col>
                 </Row>
                 <Row className="skills" id="skills">

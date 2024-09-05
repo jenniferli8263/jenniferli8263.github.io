@@ -1,10 +1,10 @@
 import {Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projImg3 from "../assets/img/project-img3.png";
+// import projImg3 from "../assets/img/project-img3.png";
 import clubConnect from '../assets/img/clubconnect.png';
 import osTranslate from '../assets/img/ostranslate.png';
 import pathfinder from '../assets/img/pathfinder.png';
-import studyspace from '../assets/img/studyspace.png';
+// import studyspace from '../assets/img/studyspace.png';
 import wattendance from '../assets/img/wattendance.png';
 /*NPM RUN DEPLOY TO UPDATE GH PAGES*/
 

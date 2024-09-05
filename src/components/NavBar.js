@@ -47,15 +47,15 @@ function NavBar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/jenniferli8263/" target="_blank"><img src={githubIcon} alt=""/></a>
-                <a href="https://www.linkedin.com/in/jenniferli8263/" target="_blank"><img src={linkedin} alt="" /></a>
-                <a href="https://www.instagram.com/_jennifer_li/" target="_blank"><img src={insta} alt="" /></a>
+                <a href="https://github.com/jenniferli8263/" target="_blank" rel="noreferrer"><img src={githubIcon} alt=""/></a>
+                <a href="https://www.linkedin.com/in/jenniferli8263/" target="_blank" rel="noreferrer"><img src={linkedin} alt="" /></a>
+                <a href="https://www.instagram.com/_jennifer_li/" target="_blank" rel="noreferrer"><img src={insta} alt="" /></a>
                 
               </div>
               {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink> */}
-              <a href="https://drive.google.com/file/d/1ZssK0skoPy4zW_WRxqQrd85Enj3FuAXf/view?usp=sharing" target="_blank">
+              <a href="https://drive.google.com/file/d/141M-hfAuL8YWI9kH0tAZubJWOqkB6cJz/view?usp=sharing" target="_blank" rel="noreferrer">
               {/* <Link to="/resume"> */}
                 <button className="cv"><span>Resume</span></button>
               {/* </Link> */}
