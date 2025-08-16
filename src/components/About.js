@@ -73,7 +73,7 @@ function About(){
                     <h1>About</h1>
                     <p>Hi! My name is Jennifer, and I am a second year software engineering student at the University of Waterloo.  I am passionate about AI, web development, and software applications in quantitative finance.</p>
                     <p>Beyond coding and engineering, I find joy in playing badminton, reading books, or going for a refreshing walk.</p>
-                    <p>Currently seeking Winter 2025 internships</p>
+                    <p>Currently seeking Summer 2026 internships</p>
                     </Col>
                 </Row>
                 <Row className="skills" id="skills">
