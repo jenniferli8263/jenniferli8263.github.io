@@ -5,62 +5,78 @@ function About(){
     const languages = [
         {
             lang: "Python",
-            time: 54,
+            time: 60,
+        },
+        {
+            lang: "JavaScript/TypeScript",
+            time: 30,
+        },
+        {
+            lang: "Java",
+            time: 30,
         },
         {
             lang: "C/C++",
             time: 30,
         },
         {
-            lang: "Java",
-            time: 24,
-        },
-        {
-            lang: "HTML/CSS/JavaScript",
-            time: 15
+            lang: "HTML/CSS",
+            time: 24
         },
         {
             lang: "SQL",
-            time: 10,
+            time: 18,
+        },
+        {
+            lang: "Ruby",
+            time: 10
         },
     ];
     const langMax = 54;
     const technologies = [
         {
-            tech: "Pandas/Numpy/Matplotlib",
+            tech: "React/Next.js",
             time: 36
         },
         {
-            tech: "Flask",
-            time: 18
-        },
-        {
-            tech: "Git",
-            time: 18
-        },
-        {
-            tech: "AWS",
-            time: 15
-        },
-        {
-            tech: "Selenium",
-            time: 12
-        },
-        {
-            tech: "REACT",
-            time: 10
-        },
-        {
             tech: "Node.js",
-            time: 10
+            time: 30
         },
         {
-            tech: "Express",
-            time: 6
+            tech: "FastAPI",
+            time: 24
         },
         {
             tech: "Spring Boot",
-            time: 2
+            time: 24
+        },
+        {
+            tech: "AWS",
+            time: 24
+        },
+        {
+            tech: "Pandas, Numpy, Scikit-learn, PyTorch",
+            time: 24
+        },
+        {
+            tech: "Git",
+            time: 24
+        },
+        {
+            tech: "Ruby on Rails",
+            time: 12
+        },
+        {
+            tech: "Kafka",
+            time: 12
+        },
+        {
+            tech: "Docker",
+            time: 4
+        },
+        {
+            tech: "Kubernetes",
+            time: 4
         },
 
     ];
@@ -71,8 +87,8 @@ function About(){
                 <Row>
                     <Col>
                     <h1>About</h1>
-                    <p>Hi! My name is Jennifer, and I am a second year software engineering student at the University of Waterloo.  I am passionate about AI, web development, and software applications in quantitative finance.</p>
-                    <p>Beyond coding and engineering, I find joy in playing badminton, reading books, or going for a refreshing walk.</p>
+                    <p>Hi! My name is Jennifer, and I am a 3rd year software engineering student at the University of Waterloo. I am passionate about backend development, AI, and software applications in quantitative finance.</p>
+                    <p>When I'm not coding, you can find me playing badminton, running, or watching Formula 1 :)</p>
                     <p>Currently seeking Summer 2026 internships</p>
                     </Col>
                 </Row>

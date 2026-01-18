@@ -7,7 +7,7 @@ function Footer(){
             <Container>
                 <Row>
                     <Col className="footer-col">
-                        <p>&copy; Jennifer Li 2023</p>
+                        <p>&copy; Jennifer Li 2026</p>
                     </Col>
                 </Row>
             </Container>

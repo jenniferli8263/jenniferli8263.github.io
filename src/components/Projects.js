@@ -1,15 +1,29 @@
 import {Container, Row, Col} from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 // import projImg3 from "../assets/img/project-img3.png";
-import clubConnect from '../assets/img/clubconnect.png';
-import osTranslate from '../assets/img/ostranslate.png';
+// import clubConnect from '../assets/img/clubconnect.png';
+// import osTranslate from '../assets/img/ostranslate.png';
 import pathfinder from '../assets/img/pathfinder.png';
 // import studyspace from '../assets/img/studyspace.png';
 import wattendance from '../assets/img/wattendance.png';
+import leaseMatch from '../assets/img/leasematch.png';
+import geesehacks from "../assets/img/geesehacks.png"
 /*NPM RUN DEPLOY TO UPDATE GH PAGES*/
 
 function Projects(){
     const projects = [
+        {
+            title: "LeaseMatch",
+            description: "Mobile app matching renters with sublet listings through a swipe-based interface and personalized recommendations",
+            imgUrl: leaseMatch,
+            projLink: "https://github.com/jenniferli8263/LeaseMatch"
+        },
+        {
+            title: "GeeseHacks",
+            description: "Google sponsored business-themed hackathon with 350+ participants, $13K+ in prizes, and 10+ sponsors",
+            imgUrl: geesehacks,
+            projLink: "https://github.com/orgs/GeeseHacks/repositories"
+        },
         {
             title: "Wattendance",
             description: "Full-stack application that uses facial recognition on a Raspberry Pi to track and update students' attendance records in real time",
@@ -22,12 +36,12 @@ function Projects(){
             imgUrl: pathfinder,
             projLink: "https://github.com/jenniferli8263/PathFinder"
         },
-        {
-            title: "OSTranslate",
-            description: "A Flask Application that summarizes and translates text, audio and video files using APIs from Symbl.ai and Google Translate",
-            imgUrl: osTranslate,
-            projLink: "https://github.com/jenniferli8263/ostranslate"
-        },
+        // {
+        //     title: "OSTranslate",
+        //     description: "A Flask Application that summarizes and translates text, audio and video files using APIs from Symbl.ai and Google Translate",
+        //     imgUrl: osTranslate,
+        //     projLink: "https://github.com/jenniferli8263/ostranslate"
+        // },
         // {
         //     title: "StudySpace",
         //     description: "A Processing program that boosts users' productivity through the use of to-do lists, timers, and relaxing music",
@@ -35,12 +49,12 @@ function Projects(){
         //     projLink: "https://github.com/jenniferli8263/studyspace"
 
         // },
-        {
-            title: "University ClubConnect",
-            description: "A website where new university students can find compatible clubs to join at their university after taking a personality quiz",
-            imgUrl: clubConnect,
-            projLink: "https://github.com/jenniferli8263/university-clubconnect"
-        },
+        // {
+        //     title: "University ClubConnect",
+        //     description: "A website where new university students can find compatible clubs to join at their university after taking a personality quiz",
+        //     imgUrl: clubConnect,
+        //     projLink: "https://github.com/jenniferli8263/university-clubconnect"
+        // },
     ];
 
     return(
